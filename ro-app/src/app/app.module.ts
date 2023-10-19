@@ -6,7 +6,8 @@ import { FooterComponent } from './footer/footer.component';
 import { FormsModule } from '@angular/forms';
 import { TopMenuComponent } from './top-menu/top-menu.component';
 import { ContentComponent } from './content/content.component';
-import { CardComponent } from './content/card/card.component';
+import { CardComponent } from './content/products/card/card.component';
+import { ProductsComponent } from './content/products/products.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CardComponent } from './content/card/card.component';
     FooterComponent,
     TopMenuComponent,
     ContentComponent,
-    CardComponent
+    CardComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
